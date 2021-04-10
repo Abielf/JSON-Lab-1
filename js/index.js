@@ -39,12 +39,12 @@ window.onload = function()
 		this.g = Math.round(Math.random()*255);
 		this.b = Math.round(Math.random()*255);*/
 
-		this.randomColor = randomInt(0,colorsArray.colors.length-1);
-		this.r = colorsArray.colors[this.randomColor].red;
-		this.g = colorsArray.colors[this.randomColor].green;
-		this.b = colorsArray.colors[this.randomColor].blue;
+		this.randomColor = randomInt(0,colors.length-1);
+		this.r = colors[this.randomColor].red;
+		this.g = colors[this.randomColor].green;
+		this.b = colors[this.randomColor].blue;
 
-		console.log(colorsArray);
+		console.log(colors);
 
 
 		this.rgba = "rgba("+this.r+","+this.g+","+this.b+",1)";
